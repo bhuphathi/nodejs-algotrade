@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-algotrade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuphathi/nodejs-algotrade.git"
+  },
+  "author": "Bhupathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhuphathi/nodejs-algotrade/issues"
+  },
+  "homepage": "https://github.com/bhuphathi/nodejs-algotrade#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2"
+  }
+}

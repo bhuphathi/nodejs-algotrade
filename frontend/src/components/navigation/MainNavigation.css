@@ -1,0 +1,76 @@
+#nav-checkbox{
+    display: none;
+}
+
+.nav-container,
+.nav-container__compact {
+    @apply flex flex-col p-2 overflow-y-auto overflow-x-hidden w-44 ;
+    height: 100vh;
+    flex: 0 0 auto;
+}
+
+.nav-container__compact {
+    @apply w-11 items-center;
+}
+
+.nav-header,
+.nav-header__compact{
+    @apply flex items-center h-9 justify-between;
+}
+
+.nav-header__compact {
+    @apply justify-around;
+}
+
+.nav-header_text{
+    @apply text-gray-700 font-semibold opacity-100;
+    pointer-events: none;
+} 
+
+ .nav-header_text__compact{
+    transform: translateX(4.928125rem);
+    opacity: 0;
+    width: 0;
+}
+
+.nav-header_icon,
+.nav-header_icon__compact{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-image: url(../icons/GoThreeBars.svg);
+}
+ 
+.nav-header_icon:hover{
+    display: inline-block;
+    background-image: url(../icons/HiOutlineChevronDoubleLeft.svg);
+}
+
+.nav-header_icon__compact:hover{
+    display: inline-block;
+    background-image: url(../icons/HiOutlineChevronDoubleRight.svg);
+}
+
+.nav-list_item,
+.nav-list_item__compact {
+    @apply flex items-center w-full h-6 px-3 py-2 justify-start;
+}
+
+.nav-list_item:hover,
+.nav-list_item__compact:hover {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list_text {
+    @apply ml-1.5 opacity-100;
+}
+
+.nav-list_text__compact {
+    opacity: 0;
+    width: 0;    
+}
+
+.nav-list_text:hover,
+.nav-list_text__compact:hover{
+    color: inherit;
+} 

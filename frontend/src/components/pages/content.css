@@ -1,0 +1,30 @@
+/* .grid-template {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "notifynav"
+                         "cont";
+    grid-template-columns: auto;
+    grid-template-rows: 48px auto;
+
+    transition: all 0.5s ease-in-out;
+    gap: 0;
+}
+
+.grid-section{
+    grid-area: cont;
+    height: calc(100vh - 48px);
+} */
+
+.content-layout{
+    @apply overflow-y-auto h-screen;
+    flex: 0 1 auto;
+    width: 100%;
+    display: block;
+    overflow-x: hidden;
+    /* scrollbar-width: none; */
+}
+
+.content-layout::-webkit-scrollbar{
+    /* display: none; */
+   }
+   

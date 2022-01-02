@@ -1,0 +1,8 @@
+/* .gridarea--header {
+    grid-area: notifynav;
+} */
+
+.notify-layout {
+    @apply h-12 px-3 py-1 flex flex-grow sticky top-0 items-center justify-between overflow-hidden;
+}
+

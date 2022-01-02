@@ -1,0 +1,31 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.fade2s {
+    transition:all 2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.fade700ms {
+    transition:all 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.fade300ms {
+    transition: all 0.3s ease-in-out;
+}
+
+.fade200ms {
+    transition: all 0.2s ease-in-out;
+}
+
+.fade100ms {
+    transition: all 0.1s ease-in-out;
+}
